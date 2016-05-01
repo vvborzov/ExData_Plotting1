@@ -1,4 +1,4 @@
-read.table("household_power_consumption.txt", sep = ";", dec = ".", header = TRUE,
+data <- read.table("household_power_consumption.txt", sep = ";", dec = ".", header = TRUE,
  colClasses = c("character", "character", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric"),
  na.strings = "?")
 
